@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta id="_csrf" name="_csrf" th:content=""/>
+    <meta id="_csrf_header" name="_csrf_header" th:content=""/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="경기평생교육학습관"/>
+    <meta property="og:description" content="경기평생교육학습관"/>
+    <meta property="og:url" content="https://lib.goe.go.kr/gglec/index.do"/>
+    <meta name="google-site-verification" content="sEsOimbA4l41Gqaz9xMAOkniklniBK7O1nVDBGa1reM" />
+    
+    <title>회원가입</title>
+    <link rel="stylesheet" href="css/join_style.css">
+    <link rel="stylesheet" href="css/reset.css">
+</head>
+<body>
+    <!-- 시멘틱 태그 빼기 -->
+    <!-- reset.css -->
+    <!-- a 태그, title(웹접근성)도 다 달기 -->
+    <!-- 바로가기 만들기 (skip 태그) -->
+    <!-- 들여쓰기 조심, 필요없는 공간 다 삭제(엔터 다 붙이기)
+     밑에 bottom, p태그에 address 입력-->
+    <div id="wrap">
+        <ul id="skip">
+            <li><a href="#header">헤더 바로가기</a></li>
+            <li><a href="#nav">메뉴 바로가기</a></li>
+            <li><a href="#content">내용 바로가기</a></li>
+        </ul>
+        <div id="wrap">
+            <div id="header">
+                <div class="top_menu">
+                    <div class="container">
+                        <ul class="left">
+                            <li><a href="#" title="통합도서관">통합도서관</a></li>
+                            <li><a href="#" title="통합전자도서관">통합전자도서관</a></li>
+                            <li><a href="#" title="학교도서관통합지원">학교도서관통합지원</a></li>
+                            <li><a href="#" title="사서와함께행복한책읽기">사서와함께행복한책읽기</a></li>
+                        </ul>
+                        <ul class="right">
+                            <li><a href="../portfolio_gyeonggi_edu.html" title="홈으로">홈으로</a></li>
+                            <li><a href="./login_html.html" title="로그인">로그인</a></li>
+                            <li><a href="#" title="회원가입">회원가입</a></li>
+                            <li><a href="#" title="회원가입">통합회원인증</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu container">
+                    <div class="nav">
+                        <ul class="left_nav">
+                            <li class="logo"><a href="../portfolio_gyeonggi_edu.html"><img src="https://lib.goe.go.kr/resources/homepage/gglec/img/gglec_logo.png" alt="로고"></a></li>
+                        </ul>
+                        <ul class="right_nav">
+                            <li>
+                                <a href="#" title="대표평생학습관">대표평생학습관</a>
+                                <div class="width100">
+                                    <ul class="container">
+                                        <li><a href="#" title="학력인정문해교육">학력인정문해교육</a></li>
+                                        <li><a href="#" title="학부모교육">학부모교육</a></li>
+                                        <li><a href="#" title="학교밖청소년">학교밖청소년</a></li>
+                                        <li><a href="#" title="학점은행제">학점은행제</a></li>
+                                        <li><a href="#" title="평생학습계좌제">평생학습계좌제</a></li>
+                                        <li><a href="#" title="평생학습기관네트워크">평생학습기관네트워크</a></li>
+                                        <li><a href="#" title="평생교육자료">평생교육자료</a></li>
+                                        <li><a href="#" title="평생학습 유튜브 채널">평생학습 유튜브 채널</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" title="프로그램">프로그램</a>
+                                <div class="width100">
+                                    <ul class="container">
+                                        <li><a href="#" title="학습관일정">학습관일정</a></li>
+                                        <li><a href="#" title="아동 청소년 프로그램">아동 청소년 프로그램</a></li>
+                                        <li><a href="#" title="학부모 지역주민 프로그램">학부모 지역주민 프로그램</a></li>
+                                        <li><a href="#" title="성인 프로그램">성인 프로그램</a></li>
+                                        <li><a href="#" title="찾아가는 프로그램">찾아가는 프로그램</a></li>
+                                        <li><a href="#" title="학교밖 청소년 프로그램">학교밖 청소년 프로그램</a></li>
+                                        <li><a href="#" title="독서회">독서회</a></li>
+                                        <li><a href="#" title="독서퀴즈">독서퀴즈</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" title="도서서비스">도서서비스</a>
+                                    <div class="width100">
+                                        <ul class="container">
+                                            <li><a href="#" title="자료검색">자료검색</a></li>
+                                            <li><a href="#" title="신착자료">신착자료</a></li>
+                                            <li><a href="#" title="간행물">간행물</a></li>
+                                            <li><a href="#" title="비도서목록">비도서목록</a></li>
+                                            <li><a href="#" title="스마트도서목록">스마트도서목록</a></li>
+                                            <li><a href="#" title="자료대출베스트">자료대출베스트</a></li>
+                                            <li><a href="#" title="추천도서">추천도서</a></li>
+                                            <li><a href="#" title="희망도서신청">희망도서신청</a></li>
+                                            <li><a href="#" title="도서예약">도서예약</a></li>
+                                            <li><a href="#" title="전자도서관">전자도서관</a></li>
+                                            <li><a href="#" title="전자저널">전자저널</a></li>
+                                            <li><a href="#" title="도서연계서비스">도서연계서비스</a></li>
+                                            <li><a href="#" title="원문검색서비스">원문검색서비스</a></li>
+                                            <li><a href="#" title="전자잡지">전자잡지</a></li>
+                                        <ul>
+                                    </div>
+                            </li>
+                            <li>
+                                <a href="#" title="열린공간">열린공간</a>
+                                <div class="width100">
+                                    <ul class="container">
+                                        <li><a href="#" title="공지사항">공지사항</a></li>
+                                        <li><a href="#" title="자주하는질문">자주하는질문</a></li>
+                                        <li><a href="#" title="이용자마당">이용자마당</a></li>
+                                        <li><a href="#" title="행사갤러리">행사갤러리</a></li>
+                                        <li><a href="#" title="정보공개">정보공개</a></li>
+                                        <li><a href="#" title="공공데이터개방">공공데이터개방</a></li>
+                                        <li><a href="#" title="자원봉사신청">자원봉사신청</a></li>
+                                        <li><a href="#" title="설문조사">설문조사</a></li>
+                                        <li><a href="#" title="학습관일정">학습관일정</a></li>
+                                        <li><a href="#" title="열람실 멀티미디어실 좌석예약">열람실 멀티미디어실 좌석예약</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" title="학습관소개">학습관소개</a>
+                                <div class="width100">
+                                    <ul class="container">
+                                        <li><a href="#" title="인사말">인사말</a></li>
+                                        <li><a href="#" title="현황">현황</a></li>
+                                        <li><a href="#" title="경기교육정책">경기교육정책</a></li>
+                                        <li><a href="#" title="주요사업안내">주요사업안내</a></li>
+                                        <li><a href="#" title="이용안내">이용안내</a></li>
+                                        <li><a href="#" title="독서상설전시관">독서상설전시관</a></li>
+                                        <li><a href="#" title="반부패청렴활동">반부패청렴활동</a></li>
+                                        <li><a href="#" title="성폭력전담신고센터">성폭력전담신고센터</a></li>
+                                        <li><a href="#" title="오시는길">오시는길</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" title="나의도서관">나의도서관</a>
+                                <div class="width100">
+                                    <ul class="container">
+                                        <li><a href="#" title="대출현황">대출현황</a></li>
+                                        <li><a href="#" title="예약현황">예약현황</a></li>
+                                        <li><a href="#" title="희망도서신청현황">희망도서신청현황</a></li>
+                                        <li><a href="#" title="수강신청현황">수강신청현황</a></li>
+                                        <li><a href="#" title="나의관심도서">나의관심도서</a></li>
+                                        <li><a href="#" title="정보수정">정보수정</a></li>
+                                        <li><a href="#" title="모바일회원증">모바일회원증</a></li>
+                                        <li><a href="#" title="정회원전환">정회원전환</a></li>
+                                        <li><a href="#" title="독서교육종합지원시스템 인증">독서교육종합지원시스템 인증</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#" title="더보기"><img class="more" src="https://lib.goe.go.kr/resources/homepage/gn/img/sitemap-b-btn.png" alt="더보기"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="subpage">
+            <div class="info_bar">
+                    <div class="container">
+                        <ul class="info_style">
+                            <li><a href="#">HOME</a></li> 
+                            <li class="arrow"></li> 
+                            <li><a href="#">회원관리</a></li>
+                            <li class="arrow"></li>
+                            <li><a href="#"><span style="font-weight: bold;">회원가입</span></a></li>
+                        </ul>
+                    </div>
+            </div>
+            <div id="content" class="container">
+                <h4 style="ir_so"></h4>
+                <aside id="lf_menu">
+                    <div class="title">회원관리</div>
+                    <ul>
+                            <li><a href="./login_html.html">로그인</a></li>
+                            <li class="on"><a href="#">회원가입</a></li>
+                            <li><a href="#">아이디찾기</a></li>
+                            <li><a href="#">비밀번호찾기</a></li>
+                            <li><a href="#">통합회원인증</a></li>
+                            <li><a href="#">개인정보재동의</a></li>
+                            <li><a href="#">회원탈퇴</a></li>
+                    </ul>
+                </aside>
+                <div class="article">
+                    <div class="headline">
+                        <h2>회원가입</h2>
+                        <div class="img_bt">
+                            <a href="#"><img src="https://lib.goe.go.kr/resources/common/img/pr_icon.png" alt="프린트"></a>
+                            <a href="#"><img src="https://lib.goe.go.kr/resources/common/img/sns_icon.png" alt="공유"></a>
+                        </div>
+                    </div>
+                    <div class="join_order">
+                        <ul>
+                            <li><img src="./img/mem_prcs02_on.png" alt="이용약관동의"></li>
+                            <li class="arrow"><span>이용약관동의</span></li>
+                            <li><img src="./img/mem_prcs03.png" alt="본인확인"></li>
+                            <li class="arrow">본인확인</li>                        
+                            <li><img src="./img/mem_prcs04.png" alt="정보입력"></li>
+                            <li class="arrow">정보입력</li>
+                        </ul>
+                    </div>
+                    <div class="join-wrap">
+                        <h4>경기교육통합도서관 서비스 이용약관</h4>
+                        <div class="box">
+                            <p><strong>경기교육통합도서관(이하 "도서관")을 찾아주신 모든 분들을 환영합니다.</strong><br><br></p>
+                            <p>이 약관은 도서관 서비스를 이용함에 있어 이용자와 도서관간의 권리 &dot; 의무 및 책임사항과 기타 필요한 사항을 포함하고 있습니다.</p>
+                            <p>약관은 서비스 화면에 게시하거나 기타의 방법으로 이용자에게 공시되며, 이를 동의한 이용자가 서비스에 가입하면 효력이 발생합니다.</p>
+                            <p>도서관 서비스의 문제점을 개선하기 위해 약관은 수시로 변경될 수 있습니다. 도서관에 제공하는 특정 서비스의 경우 고유의 약관, <br> 운영정책 등이 적용될 수 있으며, 해당 서비스 초기 화면 또는 아래의 서비스 규정에서 확인해 주시기 바랍니다.<br><br></p>
+                            <p><strong>1. 이용자가 쉽게 알 수 있도록 약관 및 운영정책을 게시하며 사전 공지 후 개정합니다.</strong><br><br></p>
+                            <p>도서관은 본 약관 &dot; 운영정책의 내용을 이용자가 쉽게 확인할 수 있도록 서비스 초기 화면에 게시하거나, 기타의 방법으로 여러분에게 공지합니다.<br>도서관이 필요하다고 인정되는 경우, 관련 법령을 위배하지 않는 범위 내에서 약관의 내용이 변경될 수 있습니다.</p>
+                            <p>사전에 그 개정 이유와 적용 일자를 해당 서비스 내 공지하고, 이용자에게 불리할 수 있는 중대한 약관 변경의 경우에는 적절한 수단(메일, 서비스 내<br>알림 등)을 통해 개별적으로 알릴 것입니다.</p>
+                            <p>또한, 이용자가 변경된 약관에 동의하지 않을 경우 서비스 이용을 중단하고 가입을 취소할 수 있습니다. 계속 사용하는 경우에는 약관 변경에 동의한<br>것으로 간주되고 변경된 약관은 변경 전 약관과 같은 효력을 갖습니다.<br><br></p>
+                            <p><strong>2. 이용자가 제공한 콘텐츠를 소중히 다룰 것입니다.</strong><br><br></p>
+                            <p>도서관에 게재된 이용자의 콘텐츠(게시물)는 저작권법 등 관련 법령에서 정하는 바에 따라 도서관 서비스 내 노출, 서비스 홍보를 위한 활용, 서비스<br>운영·개선 및 새로운 서비스 개발을 위한 연구, 웹 접근성 등 법률상 의무 준수, 외부 사이트에서의 검색, 수집 및 링크 허용을 위해 제한적으로 이용 될<br>것입니다.<br><br></p>
+                            <p><strong>3. 이용자의 개인정보를 소중히 보호합니다.</strong><br><br></p>
+                            <p>도서관은 서비스의 원활한 제공을 위하여 이용자가 동의한 목적과 범위내에서만 개인정보를 수집·이용하며, 개인정보 보호 관련 법령에 따라<br>안전하게 관리합니다. 도서관 이용자의 개인정보 보호에 관한 사항은개인정보 처리방침에서 확인하실 수 있습니다.<br><br></p>
+                            <p>도서관은 이용자가 서비스를 이용하기 위해 일정 기간 동안 로그인 혹은이용한 기록이 없는 경우, 적절한 수단(메일, 서비스 내 알림 등)을 통해<br>사전에 안내해 드린 후 이용자의 정보를 분리 보관할 수 있으며, 만약 이로 인해 서비스 제공을 위한 필수적인 정보가 부족할 경우 관련 서비스 이용이<br>제한될 수 있습니다.<br><br></p>
+                            <p><strong>4. 타인의 권리를 존중해 주세요.</strong><br><br></p>
+                            <p>이용자가 무심코 게재한 게시물로 인해 타인의 저작권이 침해되거나명예훼손 등 권리 침해가 발생할 수 있으므로 각별한 주의가 필요합니다.<br><br></p>
+                            <p><strong>5. 서비스 이용을 제한할 경우 합리적인 절차를 준수합니다.</strong><br><br></p>
+                            <p>도서관은 이용자가 게재한 게시물이 관련 법령, 본 약관, 게시물운영정책, 기타 운영정책 등에 위배되는 경우, 이를 비공개 또는 삭제처리하거나<br>게재를 거부할 수 있습니다. 또한, 도서관 서비스 이용을일부 또는 전부, 일시 또는 영구히 정지시키는 등 그 이용을 제한하거나이용을 해지할 수<br>있습니다. 다만, 이것이 도서관이 모든 콘텐츠를검토할 의무가 있다는 것을 의미하지는 않습니다.<br><br></p>
+                            <p><strong>6. 언제든지 도서관 서비스 이용을 해지 할 수 있습니다.</strong><br><br></p>
+                            <p>이용자는 언제든지 도서관 서비스 이용을 해지할 수 있으며, 이 경우도서관은 관련 규정 등이 정하는 바에 따라 이를 처리합니다.<br><br></p>
+                            <p>도서관 서비스 이용이 해지되면, 관련 법령 및 개인정보처리방침에 따라해당 이용자의 정보를 처리합니다. 공용 게시판에 등록한 댓글, 게시물 등 은<br>삭제되지 않으므로 삭제를 희망하시는 경우, 해지 신청 전에 삭제하시기 바랍니다.<br><br></p>
+                            <p><strong>7. 서비스 중단 또는 변경 시 꼭 알려드리겠습니다.</strong><br><br></p>
+                            <p>도서관은 연중무휴, 1일 24시간 안정적으로 서비스를 제공하기 위해 최선을 다하고 있습니다. 다만, 정보통신설비의 점검, 교체 또는 고장,통신두절,<br>서비스 운영 또는 개선을 위해 필요성이 있는 경우 부득이 서비스의 전부 또는 일부를 수정, 변경,중단, 종료할 수 있으며 관련법령에 특별한 규정이<br>없는 한 별도의 보상을 하지 않습니다.<br><br></p>
+                            <p>예측 가능한 경우는 사전에 이를 안내하며, 예측 불가능한 경우에는 사후지체 없이 상세히 설명하고 안내 드리겠습니다.<br><br></p>
+                            <p><strong>8. 약관‧규정에 명시되지 않은 사항은 대한민국의 법령이 적용됩니다.</strong><br><br></p>
+                            <p>이 약관‧규정에 명시되지 않은 사항에 대해서는 대한민국의 관련 법령과 상관습에 의합니다.</p>
+                        </div>
+                        <div class="agree"><input type="checkbox" name="agree" value="agree_value">
+                        통합회원 이용약관에 동의합니다.
+                        </div>
+                        <h4>개인정보의 수집&dot;이용 동의</h3>
+                        <div class="box">
+                            <p><strong>1. 수집하는 개인정보의 항목</strong><br><br></p>
+                            <p>가. 경기교육도서관(이하 도서관)은 아래와 같이 이용자가 도서관서비스를 이용할 때 반드시 필요한 최소한의 개인정보를 수집하고 있습니다.<br></p>
+                            <p>- 필수수집항목 : <strong>아이디, 비밀번호, 성명, 생년월일, 성별, 주소, 연락처(휴대폰 또는 자택번호), CI(연계정보)(만 14세 미만 회원은 법정대리인의 성명, 연락처 정보 추가 저장)</strong><br></p>
+                            <p>- 선택수집항목 : <strong>이메일</strong><br><br></p>
+                            <p>나. 서비스 이용 과정에서 아래와 같은 정보들이 자동으로 생성되어 수집될 수 있습니다.<br>- IP Address, 쿠키, 접속일시, 서비스 이용내역 및 대출이력, 연체기록, 로그인 기록, 도서관 방문 시 서비스 이용 기록 등
+                            <br><br></p>
+                            <p><strong>2. 개인정보의 수집 및 이용 목적</strong><br><br></p>
+                            <p><strong>가. 도서관 운영 및 서비스 제공을 위한 업무 이행<br>
+                            - 홈페이지 및 도서관 정보 서비스 제공</strong><br><br>
+                            </p>
+                            <p><strong>나. 회원관리<br><br>- 회원제 서비스 이용 및 제한적 본인 확인제에 따른 본인확인, 개인식별, 가입의사 확인, 추후 법정 대리인 본인확인, 분쟁 조정을 위한 기록보존, <br> 불만처리 등 민원처리, 고지사항 전달, 도서관 행사 안내</strong><br><br></p>
+                            <p><strong>3. 개인정보의 보유 및 이용기간</strong><br><br></p>
+                             <p>- 웹 회원의 개인정보는 본인의 탈퇴 요청에 의해 탈퇴 처리 되는 경우외 <strong>가입일로부터 2년 동안 보유 및 이용</strong> 하게 되며, 수집 및 이용목적이 달성되면 회원의 개인정보는 원칙적으로 지체없이 파기합니다. 따라서 연체 자료가 없는 회원의 탈퇴 요청이 있거나 2년이 경과하는 동안 개인정보 수집‧이용에 관한 동의를 하지 않은 회원의 경우는 회원의 개인정보를 지체 없이 삭제 처리합니다. <span>(홈페이지 경우)</span></p>
+                            <p><strong>- 회원 탈퇴 시까지(준영구)</strong><span> (검색대 경우) </span><br><br></p>
+                            <p><strong>4. 정보주체의 권리</strong><br><br></p>
+                            <p>가. 도서관 회원은 자신의 개인정보 처리와 관련하여 아래와 같은 권리를 가집니다.</p>
+                            <p>- 개인정보의 처리 여부를 확인하고 개인정보에 대하여 열람(사본의 발급을 포함한다. 이하 같다)을 요구할 권리</p>
+                            <p>- 개인정보의 처리 정지, 정정·삭제 및 파기를 요구할 권리</p>
+                            <p>- 개인정보 처리업무를 위탁한 경우 수탁 받은 자를 언제든 쉽게 확인할 수 있는 권리</p>
+                            <p>- 개인정보의 처리로 인하여 발생한 피해를 신속하고 공정한 절차에 따라 구제받을 권리<br><br></p>
+                            <p>나. 권리행사의 방법 및 절차에 대해서는 홈페이지에 게시된 “개인정보처리방침”을 참조하여 주시기 바라며,                           우리 도서관은 정보주체의 권리 보장을 위하여 최선을 다하겠습니다.<br><br></p>
+                            <p><strong>[동의거부권 및 동의 거부에 따른 불이익]</strong><br></p>
+                            <p>가입자는 개인정보 수집·이용에 대하여 거부할 수 있는 권리가 있습니다. 단, 이에 대한 동의를 거부할 경우에는 회원가입이 불가능합니다.</p>
+                        </div>
+                        <div class="agree"><input type="checkbox" name="agree" value="agree_value">
+                        개인정보 공동이용에 동의합니다.
+                        </div>
+                        <h4>수집한 개인정보의 제3자 제공 동의</h4>
+                        <div class="box">
+                            <p><strong>1. 수집한 개인정보의 제3자 제공</strong><br><br></p>
+                            <p>경기교육도서관 통합정보시스템에서는 이용자의 개인정보를 제3자 제공을 하고 있으며, 본인 확인의    목적으로 휴대폰 및 I-PIN 인증시에 제공하는 개인정보는 개인정보보호법 제22조에 따라 정보주체와의    계약체결 등을 위하여 정보주체의 동의로 처리할 수 있는 개인정보로 지정합니다.<br><br></p>
+                            <p><strong>2. 경기교육통합도서관 통합정보시스템 회원 서비스 제공을 위해 개인정보를 제공하는 기관</strong><br><br></p>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th class="first">개인정보파일명</th>
+                                        <th>제공받는자</th>
+                                        <th>제공근거</th>
+                                        <th>제공항목</th>
+                                        <th>제공목적</th>
+                                        <th>보유기간</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th rowspan="2" class="first">경기교육도서관<br>통합회원정보</th>
+                                        <td><strong>경기도교육청<br>소속 교육도서관<br>및<br>평생교육학습관</strong></td>
+                                        <td>정보주체<br>동의</td>
+                                        <td>아이디, 비밀번호,<br>성명, 성별, 생년월일,<br>주소, 연락처,<br>대출회원번호,<br>이메일(선택사항)</td>
+                                        <td>대출반납<br>및<br>회원관리</td>
+                                        <td><strong>회원탈퇴<br>까지</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>국립중앙도서관,<br>지역대표도서관,<br>참여도서관</strong></td>
+                                        <td>정보주체<br>동의</td>
+                                        <td>성명, 주소, 생년월일,<br>회원번호, 연락처, <br>이메일(선택사항),<br>대출&dot;반납서비스<br>이용정보</td>
+                                        <td>책이음<br>서비스<br>이용</td>
+                                        <td><strong>책이음<br>서비스<br>탈퇴까지</strong></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p><br><strong>3. 거부권 및 불이익</strong><br><br></p>
+                            <p>정보주체는 개인정보의 제3자 제공에 대한 동의를 거부할 수 있으며, 동의 거부 시 회원가입이 불가능합니다.</p>
+                        </div>
+                        <div class="agree"><input type="checkbox" name="agree" value="agree_value">
+                        개인정보 제3자 제공에 동의합니다.
+                        </div>
+                        <div class="agree center"><input type="checkbox" name="total_agree" value="total_agree_value">모든 약관에 동의합니다.</div>
+                        <div class="submit center">
+                            <button class="bt bt_agree" type="button">동의합니다.</button>
+                            <button class="bt bt_disagree" type="button">동의하지 않습니다.</button>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>     
+        <footer>
+            <div id="bottom_nav">
+                <div class="container">
+                    <ul class="menu_list">
+                        <li><span class="highlight">개인정보처리방침</span></li>
+                        <li><span class="bar">&#124;</span></li>
+                        <li>영상정보처리기기운영방침</li>
+                        <li><span class="bar">&#124;</span></li>
+                        <li>도서관서비스헌장</li>
+                        <li><span class="bar">&#124;</span></li>
+                        <li>찾아오는길</li>
+                    </ul>
+                    <div class="select">
+                        <select name="library">
+                            <option value="lib1">경기교육도서관</option>
+                            <option value="lib2">경기교육통합도서관</option>
+                            <option value="lib3">경기교육통합전자도서관</option>
+                            <option value="lib4">경기중앙교육도서관</option>
+                            <option value="lib5">경기평택교육도서관</option>
+                            <option value="lib6">경기광주교육도서관</option>
+                            <option value="lib7">경기포천교육도서관</option>
+                            <option value="lib7">경기김포교육도서관</option>
+                            <option value="lib7">경기성남교육도서관</option>
+                            <option value="lib7">경기화성교육도서관</option>
+                            <option value="lib8">경기의정부교육도서관</option>
+                            <option value="lib9">경기평생교육도서관</option>
+                            <option value="lib10">경기도교육청 학교도서관지원</option>
+                        </select>
+                        <button type="button" a href="#" class="select_bt">이동</button>
+                        <select name="education">
+                            <option value="edu1">경기지역교육지원청</option>
+                            <option value="edu2">경기교육통합도서관</option>
+                            <option value="edu3">경기교육통합전자도서관</option>
+                            <option value="edu4">경기중앙교육도서관</option>
+                            <option value="edu5">경기평택교육도서관</option>
+                            <option value="edu6">경기광주교육도서관</option>
+                            <option value="edu7">경기포천교육도서관</option>
+                            <option value="edu8">경기김포교육도서관</option>
+                            <option value="edu9">경기성남교육도서관</option>
+                            <option value="edu10">경기화성교육도서관</option>
+                            <option value="edu11">경기의정부교육도서관</option>
+                            <option value="edu12">경기평생교육도서관</option>
+                            <option value="edu13">경기도교육청 학교도서관지원</option>
+                        </select>
+                        <button type="button" a href="#" class="select_bt">이동</button>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                 <p class="bottom">
+                    (16557) 경기 수원시 권선구 권중로 55 (권선동, 경기평생교육학습관) 전화 031-259-1028 (야간 : 259-1027) 팩스 031-259-1079 <br> Copyright 2021. 경기평생교육학습관 All rights reserved.
+                </p>
+            </div>
+        </footer>
+     </div>
+     </div>
+</body>
+</html>
